@@ -1,0 +1,81 @@
+[0.604s] Invoking command in '/home/breno/ros2_ws/build/my_py_pkg': CMAKE_PREFIX_PATH=/home/breno/ros2_ws/install/my_robot_interfaces:/home/breno/ros2_ws/install/my_robot_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/breno/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/breno/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/breno/ros2_ws/build/my_py_pkg:/home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/breno/ros2_ws/build/my_py_pkg/build
+[0.836s] running develop
+[0.993s] Removing /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[1.024s] Invoked command in '/home/breno/ros2_ws/build/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/breno/ros2_ws/install/my_robot_interfaces:/home/breno/ros2_ws/install/my_robot_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/breno/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/breno/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/breno/ros2_ws/build/my_py_pkg:/home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/breno/ros2_ws/build/my_py_pkg/build
+[1.025s] Invoking command in '/home/breno/ros2_ws/src/my_py_pkg': CMAKE_PREFIX_PATH=/home/breno/ros2_ws/install/my_robot_interfaces:/home/breno/ros2_ws/install/my_robot_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/breno/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/breno/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/breno/ros2_ws/build/my_py_pkg:/home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/breno/ros2_ws/build/my_py_pkg/build install --record /home/breno/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force
+[1.226s] running egg_info
+[1.240s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.241s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.241s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.241s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.241s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.271s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.272s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.272s] running build
+[1.272s] running build_py
+[1.272s] copying my_py_pkg/battery.py -> /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.272s] copying my_py_pkg/number_publisher.py -> /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.273s] copying my_py_pkg/robot_news_station.py -> /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.273s] copying my_py_pkg/turtle_spawner.py -> /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.273s] copying my_py_pkg/turtle_controller_closer.py -> /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.273s] copying my_py_pkg/turtle_controller.py -> /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.273s] copying my_py_pkg/led_panel.py -> /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.273s] running install
+[1.278s] running install_lib
+[1.293s] copying /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/battery.py -> /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.293s] copying /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.293s] copying /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.294s] copying /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_opp.py -> /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.294s] copying /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.294s] copying /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.294s] copying /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/turtle_spawner.py -> /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.295s] copying /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/hardware_status_publisher.py -> /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.295s] copying /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.295s] copying /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py -> /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.295s] copying /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.296s] copying /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.296s] copying /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/turtle_controller_closer.py -> /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.296s] copying /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/turtle_controller.py -> /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.296s] copying /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.297s] copying /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/reset_counter.py -> /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.297s] copying /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/led_panel.py -> /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.297s] byte-compiling /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/battery.py to battery.cpython-312.pyc
+[1.298s] byte-compiling /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[1.298s] byte-compiling /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-312.pyc
+[1.298s] byte-compiling /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_client_no_opp.py to add_two_ints_client_no_opp.cpython-312.pyc
+[1.299s] byte-compiling /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-312.pyc
+[1.299s] byte-compiling /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-312.pyc
+[1.299s] byte-compiling /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/turtle_spawner.py to turtle_spawner.cpython-312.pyc
+[1.300s] byte-compiling /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/hardware_status_publisher.py to hardware_status_publisher.cpython-312.pyc
+[1.300s] byte-compiling /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc
+[1.300s] byte-compiling /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/template_python_node.py to template_python_node.cpython-312.pyc
+[1.301s] byte-compiling /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-312.pyc
+[1.301s] byte-compiling /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-312.pyc
+[1.301s] byte-compiling /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/turtle_controller_closer.py to turtle_controller_closer.cpython-312.pyc
+[1.302s] byte-compiling /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/turtle_controller.py to turtle_controller.cpython-312.pyc
+[1.303s] byte-compiling /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-312.pyc
+[1.304s] byte-compiling /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/reset_counter.py to reset_counter.cpython-312.pyc
+[1.304s] byte-compiling /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/led_panel.py to led_panel.cpython-312.pyc
+[1.304s] running install_data
+[1.304s] copying resource/my_py_pkg -> /home/breno/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.305s] copying package.xml -> /home/breno/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[1.305s] running install_egg_info
+[1.322s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[1.323s] running install_scripts
+[1.429s] Installing add_two_ints_client script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.429s] Installing add_two_ints_client_no_opp script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.429s] Installing add_two_ints_server script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.429s] Installing battery script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.429s] Installing hw_status_publisher script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.430s] Installing led_panel script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.430s] Installing number_counter script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.430s] Installing number_publisher script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.430s] Installing py_node script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.430s] Installing reset_counter script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.430s] Installing robot_news_station script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.430s] Installing smartphone script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.430s] Installing turtle_controller script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.431s] Installing turtle_controller_closer script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.431s] Installing turtle_spawner script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.431s] writing list of installed files to '/home/breno/ros2_ws/build/my_py_pkg/install.log'
+[1.452s] Invoked command in '/home/breno/ros2_ws/src/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/breno/ros2_ws/install/my_robot_interfaces:/home/breno/ros2_ws/install/my_robot_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/breno/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/breno/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/breno/ros2_ws/build/my_py_pkg:/home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/breno/ros2_ws/build/my_py_pkg/build install --record /home/breno/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force

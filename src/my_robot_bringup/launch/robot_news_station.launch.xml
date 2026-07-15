@@ -1,0 +1,32 @@
+<launch>
+    <node pkg="my_py_pkg" exec="robot_news_station" name="robot_news_station_hal">
+            <!--<param name="number" value="6" />
+            <param name="timer_period" value="1.5" /> -->
+            <param from="$(find-pkg-share my_robot_bringup)/config/robot_news_station.yaml" />
+    </node>
+    
+    <node pkg="my_py_pkg" exec="robot_news_station" name="robot_news_station_skaargard">
+            <!--<param name="number" value="6" />
+            <param name="timer_period" value="1.5" /> -->
+            <param from="$(find-pkg-share my_robot_bringup)/config/robot_news_station.yaml" />
+    </node>
+
+    <node pkg="my_py_pkg" exec="robot_news_station" name="robot_news_station_mrroboto">
+            <!--<param name="number" value="6" />
+            <param name="timer_period" value="1.5" /> -->
+            <param from="$(find-pkg-share my_robot_bringup)/config/robot_news_station.yaml" />
+    </node>
+
+    <node pkg="my_py_pkg" exec="robot_news_station" name="robot_news_station_rocky">
+            <!--<param name="number" value="6" />
+            <param name="timer_period" value="1.5" /> -->
+            <param from="$(find-pkg-share my_robot_bringup)/config/robot_news_station.yaml" />
+    </node>
+
+    <node pkg="my_py_pkg" exec="robot_news_station" name="robot_news_station_mogli">
+            <!--<param name="number" value="6" />
+            <param name="timer_period" value="1.5" /> -->
+            <param from="$(find-pkg-share my_robot_bringup)/config/robot_news_station.yaml" />
+    </node>
+
+</launch>
