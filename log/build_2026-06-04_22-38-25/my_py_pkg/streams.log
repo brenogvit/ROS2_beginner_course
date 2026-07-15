@@ -1,0 +1,33 @@
+[0.580s] Invoking command in '/home/breno/ros2_ws/src/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/breno/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/breno/ros2_ws/build/my_py_pkg/build install --record /home/breno/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.771s] running egg_info
+[0.786s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.786s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.786s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.786s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.786s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.816s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.817s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.817s] running build
+[0.817s] running build_py
+[0.817s] copying my_py_pkg/add_two_ints_server.py -> /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.817s] copying my_py_pkg/add_two_ints_client_no_opp.py -> /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.818s] running install
+[0.822s] running install_lib
+[0.837s] copying /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.837s] copying /home/breno/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_opp.py -> /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.838s] byte-compiling /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-312.pyc
+[0.838s] byte-compiling /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_client_no_opp.py to add_two_ints_client_no_opp.cpython-312.pyc
+[0.838s] running install_data
+[0.839s] running install_egg_info
+[0.854s] removing '/home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[0.855s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[0.856s] running install_scripts
+[0.954s] Installing add_two_ints_client_no_opp script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.954s] Installing add_two_ints_server script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.955s] Installing number_counter script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.955s] Installing number_publisher script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.955s] Installing py_node script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.955s] Installing robot_news_station script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.955s] Installing smartphone script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.955s] writing list of installed files to '/home/breno/ros2_ws/build/my_py_pkg/install.log'
+[0.976s] Invoked command in '/home/breno/ros2_ws/src/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/breno/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/breno/ros2_ws/build/my_py_pkg/build install --record /home/breno/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

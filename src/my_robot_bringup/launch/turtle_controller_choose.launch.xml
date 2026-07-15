@@ -1,0 +1,14 @@
+<launch>
+    <node pkg="my_py_pkg" exec="turtle_controller_choose">
+            <!--<param name="number" value="6" />
+            <param name="timer_period" value="1.5" /> -->
+            <param from="$(find-pkg-share my_robot_bringup)/config/turtle_controller_choose.yaml" />
+    </node>
+
+    <node pkg="my_py_pkg" exec="turtle_spawner">
+            <param from="$(find-pkg-share my_robot_bringup)/config/turtle_controller_choose.yaml" />
+    </node>
+
+    <node pkg="turtlesim" exec="turtlesim_node" >   </node>
+
+</launch>

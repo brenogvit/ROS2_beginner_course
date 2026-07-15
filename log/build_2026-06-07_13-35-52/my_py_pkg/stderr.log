@@ -1,0 +1,5 @@
+  File "/home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/reset_counter.py", line 26
+    if response.success = True:
+       ^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to attribute here. Maybe you meant '==' instead of '='?
+

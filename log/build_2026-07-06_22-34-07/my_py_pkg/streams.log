@@ -1,0 +1,33 @@
+[0.614s] Invoking command in '/home/breno/ros2_ws/build/my_py_pkg': CMAKE_PREFIX_PATH=/home/breno/ros2_ws/install/my_robot_interfaces:/home/breno/ros2_ws/install/my_robot_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/breno/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/breno/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/breno/ros2_ws/build/my_py_pkg/build --no-deps symlink_data --force
+[0.862s] running develop
+[1.022s] running egg_info
+[1.037s] writing my_py_pkg.egg-info/PKG-INFO
+[1.037s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.037s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.037s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.037s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.067s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.068s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.084s] running build_ext
+[1.084s] Creating /home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[1.084s] Installing add_two_ints_client script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.085s] Installing add_two_ints_client_no_opp script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.085s] Installing add_two_ints_server script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.085s] Installing battery script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.085s] Installing hw_status_publisher script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.085s] Installing led_panel script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.085s] Installing number_counter script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.085s] Installing number_publisher script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.085s] Installing py_node script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.085s] Installing reset_counter script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.086s] Installing robot_news_station script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.086s] Installing smartphone script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.086s] Installing turtle_controller script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.086s] Installing turtle_controller_closer script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.086s] Installing turtle_spawner script to /home/breno/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.086s] 
+[1.086s] Installed /home/breno/ros2_ws/build/my_py_pkg
+[1.086s] running symlink_data
+[1.086s] symbolically linking /home/breno/ros2_ws/build/my_py_pkg/resource/my_py_pkg -> /home/breno/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.086s] symbolically linking /home/breno/ros2_ws/build/my_py_pkg/package.xml -> /home/breno/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[1.113s] Invoked command in '/home/breno/ros2_ws/build/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/breno/ros2_ws/install/my_robot_interfaces:/home/breno/ros2_ws/install/my_robot_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/breno/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/breno/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/breno/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/breno/ros2_ws/build/my_py_pkg/build --no-deps symlink_data --force

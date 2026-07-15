@@ -1,0 +1,19 @@
+/robot_news_station_hal:
+  ros__parameters:
+    robot_name: "hal"
+
+/robot_news_station_skaargard:
+  ros__parameters:
+    robot_name: "skaargard"
+
+/robot_news_station_mrroboto:
+  ros__parameters:
+    robot_name: "mrroboto"
+
+/robot_news_station_rocky:
+  ros__parameters:
+    robot_name: "rocky"
+
+/robot_news_station_mogli:
+  ros__parameters:
+    robot_name: "mogli"

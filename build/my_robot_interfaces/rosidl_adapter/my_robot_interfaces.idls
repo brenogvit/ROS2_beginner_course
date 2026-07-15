@@ -1,0 +1,6 @@
+/home/breno/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl
+/home/breno/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl
+/home/breno/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedPanelState.idl
+/home/breno/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl
+/home/breno/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/AliveTurtles.idl
+/home/breno/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/CatchTurtle.idl
